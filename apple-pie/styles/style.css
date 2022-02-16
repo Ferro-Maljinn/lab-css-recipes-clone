@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+
+
+/* https://flexbox.help/ */
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+h1 {
+    color: white;
+    font-size: 4em;
+}
+h3 {
+    font-size: 1.5em;
+}
+
+header {
+    background-image: url(https://github.com/Ferro-Maljinn/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
+    background-size:cover;
+    background-position: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    padding: 30vh 10vw;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    margin: 0 10%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.text-bigger {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 2.2rem 0;
+}
+
+.container {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* responsive img: dont grow bigger than your 
+parent (in this case .img-container) and adjust
+height respectively */
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: "- " ;
+}

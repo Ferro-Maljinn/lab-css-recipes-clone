@@ -1,0 +1,30 @@
+
+.text-box {
+    width: 1150px;
+    align-content: center;
+}
+
+.text {
+ text-align: left;
+}
+
+hr {
+    width: 1150px;
+
+}
+  
+ul {
+    list-style-type: "- " ;
+}
+
+article {
+    width: 1200px;
+    margin: 5%;
+/*     padding: 75px 0; */
+}
+
+.ingredients {
+    width: 1200px;
+    margin: 135px;
+/*     align-content: center; */
+}
